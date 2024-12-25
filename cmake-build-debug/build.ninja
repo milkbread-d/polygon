@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Admin/Documents/itmo/algorithms/polygon/cmake-bu
 
 build cmake_object_order_depends_target_polygon: phony || .
 
-build CMakeFiles/polygon.dir/lab2.cpp.obj: CXX_COMPILER__polygon_unscanned_Debug C$:/Users/Admin/Documents/itmo/algorithms/polygon/lab2.cpp || cmake_object_order_depends_target_polygon
-  DEP_FILE = CMakeFiles\polygon.dir\lab2.cpp.obj.d
+build CMakeFiles/polygon.dir/lab3.cpp.obj: CXX_COMPILER__polygon_unscanned_Debug C$:/Users/Admin/Documents/itmo/algorithms/polygon/lab3.cpp || cmake_object_order_depends_target_polygon
+  DEP_FILE = CMakeFiles\polygon.dir\lab3.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\polygon.dir
   OBJECT_FILE_DIR = CMakeFiles\polygon.dir
@@ -63,7 +63,7 @@ build CMakeFiles/polygon.dir/lab2.cpp.obj: CXX_COMPILER__polygon_unscanned_Debug
 #############################################
 # Link the executable polygon.exe
 
-build polygon.exe: CXX_EXECUTABLE_LINKER__polygon_Debug CMakeFiles/polygon.dir/lab2.cpp.obj
+build polygon.exe: CXX_EXECUTABLE_LINKER__polygon_Debug CMakeFiles/polygon.dir/lab3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\polygon.dir
